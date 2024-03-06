@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+header{
+    display: flex;
+    justify-content: right;
+    background-color: rgb(247, 241, 247);
+    width: 100%;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: "Madimi One", sans-serif;
+}
+header ul li{
+    margin: 15px;
+    font-family: "Madimi One", sans-serif;
+}
+header img{
+    width: 125px;
+    height: 100px;
+}
+img{
+    width: 400px;
+}
+h1{
+    font-family: "Madimi One", sans-serif;
+    font-size: 24px;
+    color: rgb(4, 19, 61);
+}
+p{
+    font-family: "Madimi One", sans-serif;
+    font-size: 18px;
+    color: black;
+}
+table{
+    background-color: rgb(223, 240, 234);
+    font-family: "Madimi One", sans-serif;
+}
+
+.main{
+    background-color: rgb(230, 247, 241);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    font-family: "Madimi One", sans-serif;
+}
+
+.caja {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Madimi One", sans-serif;
+}
+
+.caja img{
+    border-bottom: 50%;
+
+}
+.caja p{
+    font-size: 30px;
+    font-family: "Madimi One", sans-serif;
+}
+.formulario {
+    display: flex;
+    font-size: larger;
+    background-color: rgb(211, 198, 223);
+}
+.carrusel{
+    display: flex;
+    position: absolute;
+    flex-direction: center;
+    width: 75%;
+}
+ .contac{
+    position: absolute;
+    background-color: rgb(230, 247, 241);
+    display: flex;
+    flex-direction: center;
+    width: 100%;
+    margin: 10px 0 10px 0;
+ }
+.contac img{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+}
+.contac frame{
+    position: absolute;
+    margin-top: 200%;
+    align-items: center;
+    display: flex;
+    flex-direction: center;
+}
